@@ -536,3 +536,45 @@
         color: #555;
     }
 }
+
+.box{
+    &--voting {
+        background: none;
+        padding: 0;
+        margin-bottom: 10px;
+        .box__title {
+            font-size: 18px;
+            line-height: 22px;
+            color: #99CF16;
+            font-family: $font-family-special;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+            position: relative;
+            a {
+                color: #2babe2;
+            }
+        }
+        .question {
+            font-size: 12px;
+            line-height: 17px;
+            margin-bottom: 5px;
+        }
+        .answer {
+            font-size: 12px;
+            line-height: 1.4em;
+            input {
+                margin-right: 3px;
+            }
+        }
+        .action-submit {
+            margin-top: 10px;
+        }
+        .btn {
+            font-size: 10px;
+            padding: 2px 4px;
+            &+.btn {
+                margin-left: 5px;
+            }
+        }
+    }
+}
